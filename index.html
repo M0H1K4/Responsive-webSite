@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Burger Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Hello On my first Responsive Web-Site</h1>
+      </header>
+      <main>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">Home</li>
+            <li class="menu__item">Product</li>
+            <li class="menu__item">About Us</li>
+            <li class="menu__item">Services</li>
+            <li class="menu__item">Contact Us</li>
+          </ul>
+        </nav>
+        <div class="content">Content</div>
+        <aside>Sidebar</aside>
+      </main>
+      <footer></footer>
+    </div>
+    <script>
+      function toggleMenu() {
+        const menu = document.getElementById("navMenu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
